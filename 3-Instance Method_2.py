@@ -10,9 +10,9 @@ my_dog = Dog()
 
 my_dog.bark = 'ruff-ruff!'
 
-print (my_dog.barks())
+my_dog.barks()
 
 my_dog.bark = 'woof-woof!'
 
-print (my_dog.barks())
+my_dog.barks()
 
