@@ -1,4 +1,5 @@
 # OOP tutorial
+# 2 Defining a New Class
 # https://towardsdatascience.com/understand-o-o-p-in-python-with-one-article-bfa76f3ba48c
 
 class Car:
@@ -9,6 +10,7 @@ class Car:
     def __repr__(self):
         return 'My car is {} and was produced by {}'.format(self.color, self.brand)
 #instance #1 of the car class
+
 my_car = Car('Tesla', 'black')
 
 print(my_car)
@@ -26,3 +28,5 @@ print(my_car.color.capitalize())
 my_friends_car = Car('Lambo', 'yellow')
 
 print (my_friends_car.brand.upper())
+
+print (my_friends_car.color.capitalize())
