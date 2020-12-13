@@ -15,8 +15,3 @@ class Train(MyTransports):
 
 my_train = Train('gray', 'Tesla')
 
-print (my_train.brand)
-
-my_car = Car('black', 'Lambo')
-
-print(my_car.brand)
