@@ -23,10 +23,7 @@ print(miles.speak('Woof Woof'))
 
 print(miles.speak('Bow Wow'))
 
-names = ['Fletcher', 'David', 'Dan']
-print(names)
 
-print(miles)
 
 
 
