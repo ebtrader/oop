@@ -8,10 +8,6 @@ class Dog:
         self.age = age
         self.breed = breed
 
-    # Another instance method
-    def speak(self, sound):
-        return f"{self.name} says {sound}"
-
 miles = Dog("Miles", 4, "Jack Russell Terrier")
 buddy = Dog("Buddy", 9, "Dachshund")
 jack = Dog("Jack", 3, "Bulldog")
@@ -21,6 +17,7 @@ print(buddy.speak('Yap'))
 
 print(jim.speak('Yap'))
 
+print(jim.speak('Woof'))
 
 
 

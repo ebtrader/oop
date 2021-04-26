@@ -28,19 +28,20 @@ buddy = Dachshund("Buddy", 9)
 jack =  Bulldog("Jack", 3,)
 jim = Bulldog("Jim", 5)
 
-print (miles.species)
 
-print (buddy.name)
-
-print (jack)
-
-print(jim.speak('Woof'))
-
-print(type(miles))
-
-print(isinstance(miles, Dog))
-
-print(isinstance(miles, Bulldog))
-
-print(isinstance(miles, Dachshund))
+# print (miles.species)
+#
+# print (buddy.name)
+#
+# print (jack)
+#
+# print(jim.speak('Woof'))
+#
+# print(type(miles))
+#
+# print(isinstance(miles, Dog))
+#
+# print(isinstance(miles, Bulldog))
+#
+# print(isinstance(miles, Dachshund))
 
