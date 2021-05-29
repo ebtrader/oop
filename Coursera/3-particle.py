@@ -51,6 +51,6 @@ particle_list = []
 for i in range(100):
     p = Particle([WIDTH / 2, HEIGHT / 2], random.choice(COLOR_LIST))
     particle_list.append(p)
-
+    print (p)
 # start frame
 frame.start()
