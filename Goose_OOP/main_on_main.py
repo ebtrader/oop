@@ -1,6 +1,6 @@
 from main import Testapp
 
-class Duck():
+class Duck:
     def next(self):
         Testapp.first(self)
 

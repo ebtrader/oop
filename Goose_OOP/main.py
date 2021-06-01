@@ -1,6 +1,6 @@
 from GooseClass import Goose
 
-class Testapp():
+class Testapp:
     def first(self):
         numbers = [0, 1, 2, 5, 8, 15]
         for i in numbers:
